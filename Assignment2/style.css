@@ -1,0 +1,40 @@
+body{
+	margin-left: 500px;
+}
+img {
+	height: 170px;
+	width: 170px;
+	margin: 30px;
+	margin-left: 140px;
+}
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height: 450px;
+  margin: 150px;
+  background-color: #e3e5e8;
+}
+h4 {
+	margin: 30px;
+	margin-top: 60px;
+}
+a{
+	margin: 30px;
+}
+button {
+	margin-left: 180px;
+}
+.parent {
+	width: 100%;
+  height: 450px;
+}
+i {
+	margin-left: 120px;
+}
+button {
+	margin-left: 350px;
+	margin: 10px;
+}
