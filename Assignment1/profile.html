@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>chbjnk</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<meta charset="utf-8">
+<style type="text/css">
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+margin:0;
+padding: 0;
+font-family: 'Poppins',sans-serif;
+}
+body{
+
+justify-content: center;
+align-items: center;
+background:#16384c;
+}
+button a{
+          width: 100px;
+          color: white;
+
+        }
+        button {
+          width: 100px;
+          margin: 20px;
+        }
+        
+.container{
+position: relative;
+width: 1400px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 30px;
+}
+.container .card{
+position: relative;
+max-width: 500px;
+height: 500px;
+background:#fff;
+margin:30px 10px;
+padding: 20px 15px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+transition: 0.3s ease-in-out;
+}
+.container.card:hover{
+height: 420px;
+}
+.container .card .imgBx{
+position: relative;
+width: 300px;
+height: 300px;
+top: -60px;
+left: 20px;
+z-index: 1;
+box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBx img{
+max-width:100%;
+border-radius: 4px;
+}
+.container .card .content{
+position: relative;
+margin-top: -140px;
+padding:10px 15px;
+text-align: center;
+color: #111;
+visibility: hidden;
+opacity: 0;
+transition: 0.3s ease-in-out;
+}
+.container .card:hover .content {
+visibility: visible;
+opacity: 1;
+margin-top: -40px;
+transition-delay: 0.3s;
+}
+</style>
+</head>
+<body>
+	<button class="btn btn-primary"><a href="nav1.html">Back</a></button>
+  <br>
+  <br>
+<div class="container">
+	<div class="card">
+		<div class="imgBx">
+			<img src="https://logos.textgiraffe.com/logos/logo-name/Vishnu-designstyle-smoothie-m.png"style="height: 200px;
+				width: 300px;"><br>
+				<button class="btn btn-primary" style="margin-left: 100px;">Register</button>
+		</div>
+		<div class="content">
+			<h2>React JS</h2>
+			<h3>APSSDC</h3>
+			<p>Online Summer Training Programme</p>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="imgBx">
+			<img src="https://www.apssdc.in/home/images/apssdc_final.png"style="height: 200px;
+				width: 300px;"><br>
+				<button class="btn btn-primary" style="margin-left: 100px;">Register</button>
+		</div>
+		<div class="content">
+			<h2>Node JS</h2>
+			<h3>VEDIC</h3>
+			<p>Online Summer Training Programme</p>
+		</div>
+	</div>
+
+	
+</div>
+
+
+</body>
+</html>

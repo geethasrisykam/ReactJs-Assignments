@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+<title>12344</title>
+    <style type="text/css">
+    *{
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+
+    }
+    html,body{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background:#222;
+        }
+        .wrapper{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+        }
+        .card{
+        width: 330px;
+        height: 330px;
+        padding: 2rem 1rem;
+        background:#fff;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+        transition: 0.5s ease-in-out;
+
+        }
+        .card:hover{
+        transform: translateY(20px);
+        }
+        .card:before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(to bottom,rgba(0,176,155,0.5),rgba(150,201,61,1));
+        z-index:2;
+        transition: 0.5s all;
+        opacity: 0;
+
+        }
+        .card:hover:before{
+        opacity: 1;
+        }
+        .card img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        object-fit: cover;
+        position: absolute;
+        top:0;
+        left:0;
+        }
+        button a{
+          width: 100px;
+          color: white;
+
+        }
+        button {
+          width: 100px;
+          margin: 20px;
+        }
+        
+       
+        
+        
+        
+    </style>
+</head>
+<body>
+  <button class="btn btn-primary"><a href="nav1.html">Back</a></button>
+  <br>
+  <br>
+  
+  <div class="row">
+    <div class="col-md-2"></div>
+  <div class="card col-md-4">
+  <img src="https://images.squarespace-cdn.com/content/v1/54e7a069e4b056f5cc374f79/1470102968562-W896JCMXVDCCCL5R10SP/ke17ZwdGBToddI8pDm48kLQ6pTYnKgfxxNj9vJf2ABRZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-u1eIdEqHdv7JCRndUlihUGIqeGv6bItavpdk5PuPFtFQ/Amazon+Logo.jpg">
+  </div>
+
+  <div class="col-md-1"></div>
+  <div class="card col-md-4">
+  <img src="https://content.fortune.com/wp-content/uploads/2015/10/ibm.jpg">
+  
+ 
+</div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-2"></div>
+  <div class="card col-md-4">
+  <img src="https://hdfreewallpaper.net/wp-content/uploads/2015/08/omg-black-backgroung-beautiful-google-search-engine-hd-wallpapers-free.png">
+  </div>
+
+  <div class="col-md-1"></div>
+  <div class="card col-md-4">
+  <img src="https://cdn.shopify.com/s/files/1/0266/8937/2212/products/White_Logos_Black_50ef355b-d1b0-4b62-8c49-d65eace35463_1024x1024@2x.jpg?v=1572173215">
+  
+ 
+</div>
+</div>
+
+
+  
+  
+</body>
+</html>

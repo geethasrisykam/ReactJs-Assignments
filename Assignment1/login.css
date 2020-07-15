@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(rgba(69,44,117,0.845),rgba(0,0,0,0.9)),url("https://www.innocells.io/wp-content/uploads/2019/03/annie-spratt-608001-unsplash.jpg");
+    background-size: cover;
+    height: 700px;
+    opacity: 0.93;
+}
+
+.input-group {
+    margin: 10px;
+    border-radius: 50px;
+}
+h5 {
+    color: deeppink;
+}
+
+.container {
+    
+    background-color: whitesmoke;
+    margin-top: 100px;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: black;
+}
+button {
+    margin-left: 180px;
+    width: 130px;
+}
+
+h2 {
+    color: black;
+}
+button a{
+          width: 100px;
+          color: white;
+
+        }
+        button {
+          width: 100px;
+          margin: 20px;
+        }
+
